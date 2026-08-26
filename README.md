@@ -18,7 +18,7 @@ Spring Boot 3.3.5 / MyBatis-Plus 3.5.7 / MySQL 8.0 / JWT 认证 / Maven / Java 2
 
 依赖：Lombok / Hutool / jjwt / mysql-connector-j
 
-## 快速开始
+## 开始使用
 
 ```bash
 # 1. 克隆
@@ -77,7 +77,7 @@ mvn compile && mvn spring-boot:run
 
 ## API
 
-50+ 个接口，除登录外均需 JWT Token。
+50+个接口，除登录外均需JWT Token。
 
 | 模块 | 路径前缀 | 主要接口 |
 |------|---------|---------|
@@ -98,7 +98,7 @@ mvn compile && mvn spring-boot:run
 
 ## 权限
 
-JWT Token 中携带角色信息，AuthInterceptor 校验后注入 request。Controller 按角色过滤数据。
+JWT Token 中携带角色信息，AuthInterceptor校验后注入request。Controller按角色过滤数据。
 
 ## 项目结构
 
